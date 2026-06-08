@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#ffffff;
+    color:#222;
+}
+
+.top-bg{
+    background-image:linear-gradient(rgba(255,255,255,0.35), rgba(255,255,255,0.35)), url("https://thumbs.dreamstime.com/b/abstract-green-light-burst-background-lens-flare-effects-wave-pattern-great-backdrop-any-spring-season-theme-copy-36684665.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+/* Header */
+
+header{
+    background:rgba(255,255,255,0.78);
+    padding:15px 30px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    position:sticky;
+    top:0;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:1200px;
+    margin:auto;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+}
+
+.logo h2{
+    color:#2e7d32;
+}
+
+/* Hero Section */
+
+.hero{
+    text-align:center;
+    padding:70px 20px;
+}
+
+.hero img{
+    width:380px;
+    max-width:90%;
+}
+
+.hero h1{
+    margin-top:20px;
+    font-size:55px;
+    color:#2e7d32;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:20px;
+    color:#555;
+    line-height:1.6;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 35px;
+    background:#2e7d32;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#1b5e20;
+}
+
+/* Features */
+
+.features{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:50px 20px;
+}
+
+.card{
+    width:300px;
+    padding:25px;
+    border-radius:12px;
+    background:#f8f8f8;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    text-align:center;
+}
+
+.card h3{
+    color:#2e7d32;
+    margin-bottom:10px;
+}
+
+/* Team Section */
+
+.team-section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.team-section h1{
+    color:#2e7d32;
+    margin-bottom:30px;
+}
+
+.team-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.name{
+    width:250px;
+    padding:20px;
+    border-radius:12px;
+    background:#f8f8f8;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.name img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin:15px 0;
+    border:3px solid #2e7d32;
+}
+
+.name h3{
+    color:#2e7d32;
+    margin-bottom:5px;
+}
+
+.name p{
+    color:#555;
+}
+.key{
+    width:90%;
+    max-width:1100px;
+    margin:40px auto;
+    padding:40px;
+    border-radius:20px;
+    background:#f8f8f8;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    line-height:1.8;
+    text-align:left;
+}
+
+.key h1{
+    color:#2e7d32;
+    margin-bottom:20px;
+}
+
+.key h3{
+    color:#2e7d32;
+    margin-top:20px;
+}
+
+.key ul{
+    padding-left:25px;
+}
+
+.key li{
+    margin-bottom:10px;
+}
+/* Team */
+
+.team-section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.team-section h1{
+    color:#2e7d32;
+    margin-bottom:30px;
+}
+
+.team-container,
+.team-sir{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.name,
+.sir{
+    width:250px;
+    padding:20px;
+    border-radius:12px;
+    background:#f8f8f8;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.name img,
+.sir img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin:15px 0;
+    border:3px solid #2e7d32;
+}
+
+.name h3,
+.sir h3{
+    color:#2e7d32;
+    margin-bottom:5px;
+}
+
+.name p,
+.sir p{
+    color:#555;
+}
+/* Footer */
+
+footer{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
